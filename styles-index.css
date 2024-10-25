@@ -1,0 +1,150 @@
+/* poner que la pagina se adapte al tamaño de la ventana, para moviles, tablets, etc */
+
+/* objetivo hacer similar a esta --> https://dribbble.com/shots/23530094-personal-website-web-design-visual-identity */
+
+@font-face {
+    font-family: "P3";
+    src: url(fonts/BMSPA___.TTF);
+}
+@font-face {
+    font-family: "P4";
+    src: url(fonts/monbaiti.ttf);
+}
+
+*{
+    font-family: "P4";
+}
+
+header{
+    position: sticky;
+    top: 17px;
+    background-color: chocolate;
+}
+
+footer{
+    margin: auto;
+    width: 85%;
+    background-color: chocolate;
+}
+
+.navbar {
+    width: 85%;
+    font-size: 2vw;
+    margin: auto;
+    padding: 7px;
+    border: 7px solid orange;
+    background-color: aliceblue;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li {
+    float: inline-end;
+}
+.menu li:last-child{
+    float: left;
+}
+
+.menu li a {
+    display: block;
+    color: orange;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+.icono{
+    width: 40px;
+    margin-top: 12px;
+    margin-right: 12px;
+}
+
+div.a {
+    margin: auto;
+    width: 80%;
+}
+
+p{
+    font-size: 2vw;
+}
+
+.galelia{
+    margin: auto;
+    width: 85%;
+}
+
+.galelia img {
+    height: 200px;
+    margin: 10px;
+}
+
+.galelia img:hover {
+    height: 300px;
+}
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 1200px) {
+    header{
+
+
+        background-color: aqua;
+    }
+    
+    footer{
+
+        background-color: aqua;
+    }
+
+    .galelia img {
+        height: 250px;
+        margin: 10px;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    header{
+
+
+        background-color: crimson;
+    }
+    
+    footer{
+
+        background-color: crimson;
+    }   
+    
+    .galelia img {
+        height: 300px;
+        margin: 20px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    header{
+
+        background-color: black;
+    }
+    
+    footer{
+
+        background-color: black;
+    }
+
+    .galelia img {
+        height: 350px;
+        margin: 30px;
+    }
+}
